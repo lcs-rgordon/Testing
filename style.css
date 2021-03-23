@@ -1,16 +1,15 @@
 .grid {
   display: grid;
-  border: 2px blue solid;
-  width: 600px;
-  height: 1040px;
+  border: 1px black solid;
+  width: auto;
+  height: 1950px;
   grid-template-columns: 2fr, 1fr;
-  grid-template-rows: repeat(26, 40px);
+  grid-template-rows: repeat(26, 75px);
 }
 
 .box {
-  background-color: beige;
   color: black;
-  border: 2px dodgerblue solid;
+  border: 1px dodgerblue solid;
 }
 
 .a {
@@ -38,9 +37,9 @@ grid-area: 14 / 2 / 21 / span 1;
 }
 
 .g {
-grid-area: 21 / 1 / 26 / span 2;
+grid-area: 21 / 1 / 25 / span 2;
 }
 
 .h {
-grid-area: 26 / 1 / span 2 / span 2;
+grid-area: 25 / 1 / span 2 / span 2;
 }
