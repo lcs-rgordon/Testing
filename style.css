@@ -7,9 +7,9 @@
   display: grid;
   border: 1px black solid;
   width: auto;
-  height: 1950px;
+  height: 1300px;
   grid-template-columns: 2fr, 1fr;
-  grid-template-rows: repeat(26, 75px);
+  grid-template-rows: repeat(26, 50px);
 }
 
 .box {
@@ -50,57 +50,19 @@ grid-area: 21 / 1 / 25 / span 2;
 grid-area: 25 / 1 / span 2 / span 2;
 }
 
-/* header */
-header {
-  /* background-color: white; */
-/* position:fixed; */
-background-color: hsla(19, 63%, 50%, 0.62); 
-width: auto;
-  /*display: grid;
-  height: 100px;
-  */
+#mainlogo {
+    width: 170px;
+    display: block;
+    margin: auto;
+    position: relative;
+    bottom: 45px;
 }
 
-/* navigation logo */
-nav img {
-width: 40px;
-height: 40px;
-/* display: inline-block; */
-cursor: context-menu;
-margin: 10px;
-justify-self: left;
-}
-
-/* header */
-#mainlogo img{
-width: 13%;
-height: 13%;
-clear: none;
-margin: 0 auto;
-/* background: beige; */
-/* padding: 20px 30px; */
-box-sizing: content-box;
-/*position: relative;*/
-align-self: center;
-justify-self: center;
-}
-
-/* search recipes */
-.searchrecipes #textarea {
-  min-width: 200px;
-  min-height: 22px;
-  justify-self: right;
-}
-
-input#submit {
-background: white;
-padding: 0px;
-height: 20px;
-width: 20px;
-/* display: inline-block; */
-justify-self: right;
-}
-
-header p {
-  justify-self: right;
+nav img{
+  width: 40px;
+  height: 40px;
+  cursor: context-menu;
+  margin: 10px;
+  position: relative;
+  right: 510px;
 }
