@@ -5,7 +5,7 @@
 
 .grid {
   display: grid;
-  border: 1px black solid;
+  border: .1px black solid;
   width: auto;
   height: 1300px;
   grid-template-columns: 2fr, 1fr;
@@ -14,7 +14,7 @@
 
 .box {
   color: black;
-  border: 1px dodgerblue solid;
+  border: .1px dodgerblue solid;
 }
 
 .a {
@@ -23,7 +23,8 @@ justify-items: center;
 }
 
 .b {
-grid-area: 3 / 1 / 6 / span 2;
+grid-area: 3 / 1 / 6 / 3;
+justify-items: center;
 }
 
 .c {
@@ -50,12 +51,40 @@ grid-area: 21 / 1 / 25 / span 2;
 grid-area: 25 / 1 / span 2 / span 2;
 }
 
+/*links*/
+a {
+color: brown;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+/* header */
+header {
+  position: static;
+  background-color: hsla(19, 63%, 50%, 0.4);
+  box-shadow: 0px 8px hsla(0, 0%, 53%, 0.3);
+}
+
 #mainlogo {
-    width: 170px;
+    width: 200px;
     display: block;
     margin: auto;
     position: relative;
-    bottom: 45px;
+    bottom: 59px;
 }
 
 nav img{
@@ -64,5 +93,56 @@ nav img{
   cursor: context-menu;
   margin: 10px;
   position: relative;
-  right: 510px;
+  right: 660px;
+  float: left;
+  top: 10px;
+}
+
+header p {
+  font-size: 18px;
+  width: 150px;
+    display: inline-flex;
+    position: relative;
+    left: 640px;
+    bottom: 135px;
+}
+
+.searchrecipes #textarea {
+  min-width: 250px;
+  min-height: 22px;
+    position: relative;
+    left: 542px;
+    display: inline-flex;
+    bottom: 139px;
+}
+
+input#submit {
+background: white;
+padding: 0px;
+margin-right: 5px;
+height: 20px;
+width: 20px;
+position: relative;
+    left: 795px;
+    display: inline-flex;
+    bottom: 160px;
+  border: 1px solid hsl(0, 0%, 60%);
+  border-radius: 1px;
+}
+
+/* heading section b  */
+.b {
+  background-color: hsla(60, 56%, 91%, 0.5);
+}
+
+.b h1 {
+  font-family: lobster;
+  font-size: 45px;
+  margin-left: 30px;
+}
+
+.b h5 {
+  position: relative;
+  bottom: 43px;
+  margin-left: 30px;
 }

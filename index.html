@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>ChocolateBrowniesRecipe</title>
-   <link href="style.css" rel="stylesheet" type="text/css" />
+   <link href="style.css" rel="stylesheet" type="text/css"/>
 
    <!--merriweather Regular 400 italic-->
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
@@ -21,7 +21,7 @@
 
   </head>
   <body class="grid">
-    <header class="box a">
+  <header class="box a">
 <!-- navigation image -->
     <nav>
       <img src= "images/nav2.png" alt="navigation"/>
@@ -31,15 +31,29 @@
         <a href="https://www.allrecipes.com/"><img id="mainlogo" src= "images/logobold.png"/></a>
       </figure>
 <!-- login sign up -->
-    <p><a href="https://www.allrecipes.com/account/signin/?actionsource=recipe&loginreferrerurl=%2Frecipe%2F10549%2Fbest-brownies%2F&testcookieredirect=1" target="_blank">Login</a> |  <a href="https://www.allrecipes.com/account/signup/" target="_blank">Sign up</a></p>
+    <p><a href="https://www.allrecipes.com/account/signin/?actionsource=recipe&loginreferrerurl=%2Frecipe%2F10549%2Fbest-brownies%2F&testcookieredirect=1" target="_blank">Login</a>   |   <a href="https://www.allrecipes.com/account/signup/" target="_blank">Sign up</a></p>
 
-    </header>
+<!--search bar-->
+    <form class="searchrecipes" method="GET" action="https://www.allrecipes.com/search/results/?">
+     <input id="textarea" type="text" name="search" placeholder="More Chocolate Recipes" maxlength="50">
+<!-- search button -->
+     <input id="submit" type="image" src="images/search-icon.png" alt="search icon"/>
+    </form>
+  </header>
+
+    <!-- main -->
+  <main>
+<!-- title -->
+<section class="box b">
+      <h1><strong>Best Brownies</strong></h1>
+      <h5>13,329 Ratings | 10,294 Reviews | 1,427 Photos</h5>
 
 
 
+  </section>
+  </main>
 
 
-    <div class="box b"></div>
     <div class="box c"></div>
     <div class="box d"></div>
     <div class="box e"></div>
