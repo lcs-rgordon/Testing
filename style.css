@@ -53,6 +53,7 @@ grid-area: 25 / 1 / span 2 / span 2;
 /*links*/
 a {
 color: brown;
+display: inline;
 }
 
 a:link {
@@ -97,13 +98,18 @@ float: left;
 top: 10px;
 }
 
-header p {
+nav#rightnav {
 font-size: 18px;
 width: 150px;
 display: inline-flex;
 position: relative;
 left: 640px;
 bottom: 135px;
+margin-right: 5px;
+}
+nav#rightnav>a {
+margin-right: 5px;
+margin-left: 5px;
 }
 
 .searchrecipes #textarea {
