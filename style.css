@@ -27,20 +27,23 @@ grid-area: 3 / 1 / 6 / span 2;
 }
 
 .c {
-grid-area: 6 / 1 / 13 / span 1;
-justify-items: center;
+grid-area: 6 / 1 / 15 / span 1;
+background-color: hsla(60, 56%, 91%, 0.5);
 }
 
 .d {
 grid-area: 6 / 2 / 14 / span 1;
+background-color: hsla(60, 56%, 91%, 0.5);
 }
 
 .e {
-grid-area: 13 / 1 / 21 / 2;
+grid-area: 15 / 1 / 21 / 2;
+background-color: hsla(60, 56%, 91%, 0.5);
 }
 
 .f {
 grid-area: 14 / 2 / 21 / span 1;
+background-color: hsla(60, 56%, 91%, 0.5);
 }
 
 .g {
@@ -186,8 +189,8 @@ font-size: 18px;
 /* section c image */
 #browniesimage {
   border-radius: 5px;
-  width: 100%;
-  transition: .5s ease;
+  width: 95%;
+  transition: .4s ease;
   margin-left: 15px;
 }
 
