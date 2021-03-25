@@ -107,6 +107,7 @@ left: 640px;
 bottom: 135px;
 margin-right: 5px;
 }
+
 nav#rightnav>a {
 margin-right: 5px;
 margin-left: 5px;
@@ -169,12 +170,13 @@ border: 2px solid hsla(14, 65%, 45%, 0.7);
 margin-right: 10px;
 }
 
-.b h3 {
+h3#attribution {
 position: relative;
 left: 90%;
 bottom: 160px;
-width: 300px;
+/* width: 300px; */
 white-space: nowrap;
 text-overflow: ellipsis;
 margin-right: 10px;
+display: inline;
 }
