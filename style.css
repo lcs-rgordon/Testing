@@ -65,7 +65,7 @@ text-decoration: none;
 }
 
 a:visited {
-text-decoration: none;
+text-decoration: blueviolet;
 }
 
 a:hover {
@@ -172,14 +172,13 @@ right: 150px;
 bottom: 160px;
 border: 2px solid hsla(14, 65%, 45%, 0.5);
 margin-right: 10px;
+overflow: hidden;
 }
 
 h3#attribution {
 position: relative;
 left: 91%;
 bottom: 380%;
-white-space: nowrap;
-text-overflow: ellipsis;
 margin-right: 10px;
 display: inline;
 font-family: "Merriweather", serif;
@@ -188,16 +187,38 @@ font-size: 18px;
 
 /* section c image */
 #browniesimage {
-  border-radius: 5px;
-  width: 95%;
-  transition: .4s ease;
-  margin-left: 15px;
+border-radius: 5px;
+width: 95%;
+transition: .4s ease;
+margin-left: 15px;
 }
 
 #browniesimage:hover  {
-  opacity: 0.4;
+opacity: 0.4;
 }
 
 #brownies-figure {
-  float: left;
+float: left;
+}
+
+#watch {
+width: 21%;
+border-radius: 4px;
+position: absolute;
+z-index: 2;
+float: left;
+}
+
+#brownies-figure:hover #watch {
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%)
+}
+
+.ingredient input{
+
+}
+
+.ingredient [type="checkbox"] {
+  margin-right: 8px;
 }
