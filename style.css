@@ -27,7 +27,8 @@ grid-area: 3 / 1 / 6 / span 2;
 }
 
 .c {
-grid-area: 6 / 1 / 13 / 2;
+grid-area: 6 / 1 / 13 / span 1;
+justify-items: center;
 }
 
 .d {
@@ -103,8 +104,8 @@ font-size: 18px;
 width: 150px;
 display: inline-flex;
 position: relative;
-left: 640px;
-bottom: 135px;
+left: 642px;
+bottom: 125px;
 margin-right: 5px;
 }
 
@@ -119,7 +120,7 @@ min-height: 22px;
 position: relative;
 left: 542px;
 display: inline-flex;
-bottom: 139px;
+bottom: 109px;
 }
 
 input#submit {
@@ -131,7 +132,7 @@ width: 20px;
 position: relative;
 left: 795px;
 display: inline-flex;
-bottom: 160px;
+bottom: 130px;
 border: 1px solid hsl(0, 0%, 60%);
 border-radius: 1px;
 }
@@ -164,19 +165,36 @@ width: 70px;
 height: 70px;
 float: right;
 position: relative;
-left: 1000px;
+right: 150px;
 bottom: 160px;
-border: 2px solid hsla(14, 65%, 45%, 0.7);
+border: 2px solid hsla(14, 65%, 45%, 0.5);
 margin-right: 10px;
 }
 
 h3#attribution {
 position: relative;
-left: 90%;
-bottom: 160px;
-/* width: 300px; */
+left: 91%;
+bottom: 380%;
 white-space: nowrap;
 text-overflow: ellipsis;
 margin-right: 10px;
 display: inline;
+font-family: "Merriweather", serif;
+font-size: 18px;
+}
+
+/* section c image */
+#browniesimage {
+  border-radius: 5px;
+  width: 100%;
+  transition: .5s ease;
+  margin-left: 15px;
+}
+
+#browniesimage:hover  {
+  opacity: 0.4;
+}
+
+#brownies-figure {
+  float: left;
 }
