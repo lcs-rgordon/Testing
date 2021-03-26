@@ -17,6 +17,7 @@ color: black;
 border: .1px dodgerblue solid;
 }
 
+/* containers */
 .a {
 grid-area: 1 / 1 / 3 / span 2;
 justify-items: center;
@@ -74,6 +75,12 @@ text-decoration: underline;
 
 a:active {
 text-decoration: underline;
+}
+
+/* fonts */
+#ingredient,
+#step-title {
+  font-family: 'Merriweather', serif;
 }
 
 /* header */
@@ -215,10 +222,28 @@ top: 50%;
 transform: translate(-50%, -50%)
 }
 
-.ingredient input{
+/* .ingredient input,
+.list {
+display: inline-flex;
 
 }
 
-.ingredient [type="checkbox"] {
+.list>[type="checkbox"] {
   margin-right: 8px;
+}
+
+.ingredient {
+  margin-right: 8px;
+} */
+
+.list p {
+visibility: hidden
+}
+
+#step-title {
+margin-left: 20px
+}
+
+.steps {
+  font-family: 'PT Sans';
 }
