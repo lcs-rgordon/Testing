@@ -247,3 +247,11 @@ margin-left: 20px
 .steps {
   font-family: 'PT Sans';
 }
+
+.item, div.item>input, div.item>label {
+  display: inline;
+}
+
+fieldset {
+  border: none;
+}
